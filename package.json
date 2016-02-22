@@ -1,6 +1,6 @@
 {
   "name": "cyclic-dependency-graph",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A state machine that handles building a cyclic directed graph from the dependencies in a codebase",
   "main": "lib/index.js",
   "scripts": {
