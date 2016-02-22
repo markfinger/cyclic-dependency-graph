@@ -1,6 +1,6 @@
 import {Diff, mergeDiffs, getNewNodesFromDiff, getPrunedNodesFromDiff, getChangedNodes} from '../diff';
 import {createNodesFromNotation} from '../utils';
-import {assert} from '../utils/assert';
+import {assert} from './assert';
 
 describe('cyclic-dependency-graph/diff', () => {
   describe('#Diff', () => {

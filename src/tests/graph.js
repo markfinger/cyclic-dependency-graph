@@ -4,7 +4,7 @@ import {isNodePending, isNodeDefined, createGraph} from '../graph';
 import {Node, defineEntryNode} from '../node';
 import {getPrunedNodesFromDiff, getChangedNodes} from '../diff';
 import {createNodesFromNotation} from '../utils';
-import {assert} from '../utils/assert';
+import {assert} from './assert';
 
 describe('cyclic-dependency-graph/graph', () => {
   describe('#createGraph', () => {

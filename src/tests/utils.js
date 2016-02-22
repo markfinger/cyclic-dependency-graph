@@ -1,7 +1,7 @@
 import {Map, Set} from 'immutable';
 import {Node} from '../node';
 import {createNodesFromNotation, resolveExecutionOrder} from '../utils';
-import {assert} from '../utils/assert';
+import {assert} from './assert';
 
 describe('cyclic-dependency-graph/utils', () => {
   describe('#createNodesFromNotation', () => {

@@ -2,7 +2,7 @@ import {difference} from 'lodash/array';
 import {Map, Set} from 'immutable';
 import {Node, addNode, removeNode, addEdge, removeEdge, defineEntryNode, findNodesDisconnectedFromEntryNodes, pruneNodeAndUniqueDependencies} from '../node';
 import {createNodesFromNotation} from '../utils';
-import {assert} from '../utils/assert';
+import {assert} from './assert';
 
 describe('cyclic-dependency-graph/node', () => {
   describe('#Node', () => {
